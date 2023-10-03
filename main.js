@@ -8,9 +8,9 @@ function randomValueFromArray(array){
 }
 
 const storyText = '外は華氏94度で暑かった。だから :insertx: は外へ出た。 :inserty:についた時、 暑くてくらっとしたが、その後 :insertz:. Bobはその一部始終を見ていたが、全く驚かなかった。 :insertx: の体重は400トンで、その日はとても暑い日だった。';
-const insertX = ['ミッフィー', '岸田総理', '津田梅子'];
-const insertY = ['津田塾大学', 'ディズニーランド', 'ハウステンボス'];
-const insertZ = ['突然萎んで土の中へと吸い込まれていった。', '蒸発して空の方へと消えていった。', '　水たまりに溶けていなくなった。'];
+const insertX = ['秋山', 'おざき', 'りん'];
+const insertY = ['新宿まねき', '国分寺まねき', '国分寺マック'];
+const insertZ = ['スト缶を一気し倒れ込んだ。', 'その場で脱糞して倒れた。', 'イナバウアを披露した'];
 
 randomize.addEventListener('click', result);
 
