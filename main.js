@@ -32,10 +32,10 @@ function result() {
   }
 
   if (document.getElementById("jp").checked) {
-    const weight = `${Math.round(300*0.0714286)} stone`;
-    const temperature =  `${Math.round((94-32) * 5 / 9)} centigrade`;
-    newStory = newStory.replace('94 fahrenheit', temperature);
-    newStory = newStory.replace('300 pounds', weight);
+    const weight = `${Math.round(300*0.454)} kg`;
+    const temperature =  `華氏　${Math.round((94-32) * 5 / 9)}`;
+    newStory = newStory.replace('摂氏94', temperature);
+    newStory = newStory.replace('400トン', weight);
   }
 
   story.textContent = newStory;
